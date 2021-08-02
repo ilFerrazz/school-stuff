@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cheti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-02 04:48:24 "/>
+        <attribute name="created" value="Y2hldGk7REVTS1RPUC1PUkdMU0pMOzIwMjEtMDgtMDI7IjA0OjM0OjA4ICI7MjgzOA=="/>
+        <attribute name="edited" value="Y2hldGk7REVTS1RPUC1PUkdMU0pMOzIwMjEtMDgtMDI7IjA0OjQ4OjI0ICI7MTsyOTQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="primonumero" type="Real" array="False" size=""/>
+            <output expression="&quot;Inserisci il primo numero&quot;" newline="True"/>
+            <input variable="primonumero"/>
+            <declare name="secondonumero" type="Real" array="False" size=""/>
+            <output expression="&quot;Inserisci il seecondo numero&quot;" newline="True"/>
+            <input variable="secondonumero"/>
+            <if expression="primonumero &gt; secondonumero">
+                <then>
+                    <output expression="primonumero-secondonumero" newline="True"/>
+                </then>
+                <else>
+                    <output expression="primonumero + secondonumero" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
