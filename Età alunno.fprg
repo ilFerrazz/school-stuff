@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cheti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-02 04:34:05 "/>
+        <attribute name="created" value="Y2hldGk7REVTS1RPUC1PUkdMU0pMOzIwMjEtMDgtMDI7IjA0OjI5OjI2ICI7Mjg0Mg=="/>
+        <attribute name="edited" value="Y2hldGk7REVTS1RPUC1PUkdMU0pMOzIwMjEtMDgtMDI7IjA0OjM0OjA1ICI7MTsyOTQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Inserisci et&#224; dello/a alunno/a&quot;" newline="True"/>
+            <declare name="et&#224;" type="Real" array="False" size=""/>
+            <input variable="et&#224;"/>
+            <if expression="et&#224; &lt; 18">
+                <then>
+                    <output expression="&quot;L'alunno/a &#232; minorenne&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;L'alunno/a &#232; maggiorenne&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
